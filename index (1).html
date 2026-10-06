@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Histoire de l’horlogerie</title>
+<style>html,body{margin:0;height:100%;overflow:hidden}iframe{border:0;width:100%;height:100%}</style>
+<script>
+// API SCORM 1.2 simulée : permet de lire le module hors LMS. Rien n'est enregistré côté serveur.
+(function(){var d={"cmi.core.lesson_status":"not attempted","cmi.core.student_name":"Visiteur","cmi.core.student_id":"demo","cmi.core.entry":"ab-initio","cmi.core.lesson_mode":"normal","cmi.core.credit":"credit","cmi.suspend_data":"","cmi.core.lesson_location":""};
+window.API={LMSInitialize:function(){return "true"},LMSFinish:function(){return "true"},
+LMSGetValue:function(k){return d[k]!==undefined?d[k]:""},LMSSetValue:function(k,v){d[k]=String(v);return "true"},
+LMSCommit:function(){return "true"},LMSGetLastError:function(){return "0"},LMSGetErrorString:function(){return ""},LMSGetDiagnostic:function(){return ""}};})();
+</script></head>
+<body><iframe src="scormdriver/indexAPI.html" title="Module de formation" allowfullscreen></iframe></body></html>
