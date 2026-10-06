@@ -1,0 +1,148 @@
+<?xml version="1.0" ?>
+<manifest identifier="INjjTzPnXKWF90MHGggFPIV03V6STVekm4jNvjhm" version="1"
+  xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                      http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <adlcp:location>metadata.xml</adlcp:location> 
+  </metadata>
+  <organizations default="articulate_rise">
+      <organization identifier="articulate_rise">
+      <title>HISTOIRE DE L&#39;HORLOGERIE</title>
+      <item identifier="i1" identifierref="r1" isvisible="true">
+        <title>HISTOIRE DE L&#39;HORLOGERIE</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="r1" type="webcontent" adlcp:scormtype="sco" href="scormdriver/indexAPI.html">
+      <!-- SCORMDRIVER STUFF -->
+      <file href="scormdriver/indexAPI.html" />
+      <file href="scormdriver/preloadIntegrity.js" />
+      <file href="scormdriver/driverOptions.js" />
+      <file href="scormdriver/AICCComm.html" />
+      <file href="scormdriver/auto-scripts/AutoBookmark.js" />
+      <file href="scormdriver/auto-scripts/AutoCompleteSCO.js" />
+      <file href="scormdriver/auto-scripts/CourseExit.js" />
+      <file href="scormdriver/blank.html" />
+      <file href="scormdriver/goodbye.html" />
+      <file href="scormdriver/scormdriver.js" />
+      <file href="scormdriver/browsersniff.js" />
+
+      <!-- RUNTIME COMMON STUFF -->
+      <file href="scormcontent/index.html" />
+
+      
+        <file href="scormcontent/lib/lzwcompress.js"/>
+      
+
+      <!-- FRONTEND BUNDLE ASSETS -->
+      <file href="scormcontent/lib/rise/6d371c6e.js" />
+<file href="scormcontent/lib/rise/79bcdede.css" />
+<file href="scormcontent/lib/rise/42f909ca.js" />
+<file href="scormcontent/lib/rise/cfdfc646.css" />
+<file href="scormcontent/lib/rise/7b9d882a.js" />
+<file href="scormcontent/lib/rise/9aede266.ttf" />
+<file href="scormcontent/lib/rise/bff47411.woff" />
+<file href="scormcontent/lib/rise/1e02aeaf.js" />
+<file href="scormcontent/lib/rise/88b767b4.js" />
+<file href="scormcontent/lib/rise/0daed00a.js" />
+<file href="scormcontent/lib/rise/749e22d3.js" />
+<file href="scormcontent/lib/rise/3125981b.js" />
+<file href="scormcontent/lib/rise/d37ad483.js" />
+<file href="scormcontent/lib/rise/b59dd2da.js" />
+<file href="scormcontent/lib/rise/48427b49.js" />
+<file href="scormcontent/lib/rise/15468afc.js" />
+<file href="scormcontent/lib/rise/64c13194.js" />
+<file href="scormcontent/lib/rise/4a460832.js" />
+<file href="scormcontent/lib/rise/54254e8f.js" />
+<file href="scormcontent/lib/rise/51ea32da.js" />
+<file href="scormcontent/lib/rise/f594da6f.js" />
+<file href="scormcontent/lib/rise/aae6ab0b.js" />
+<file href="scormcontent/lib/rise/8716f7be.js" />
+<file href="scormcontent/lib/rise/fa38f8bb.js" />
+<file href="scormcontent/lib/rise/f561fb59.js" />
+<file href="scormcontent/lib/rise/89cd9974.js" />
+<file href="scormcontent/lib/learn_dist/entry.js" />
+<file href="scormcontent/lib/learn_dist/88722058.js" />
+<file href="scormcontent/lib/learn_dist/b1b3a7c2.css" />
+<file href="scormcontent/lib/learn_dist/461c1284.js" />
+<file href="scormcontent/lib/mondrian/entry.js" />
+<file href="scormcontent/lib/mondrian/1f655cc7.js" />
+<file href="scormcontent/lib/mondrian/360a8061.js" />
+<file href="scormcontent/lib/mondrian/b1991b77.js" />
+<file href="scormcontent/lib/mondrian/09e37aee.js" />
+<file href="scormcontent/lib/mondrian/196251cf.js" />
+<file href="scormcontent/lib/sandbox/sandbox.html" />
+<file href="scormcontent/lib/sandbox/c77685df.js" />
+<file href="scormcontent/lib/sandbox/4adfab46.css" />
+
+
+      <!-- RUNTIME CONTENT STUFF -->
+      <file href="scormcontent/lib/fonts/Lato2-Italic.woff" />
+<file href="scormcontent/lib/fonts/Lato2-Light.woff" />
+<file href="scormcontent/lib/fonts/Lato2-Regular.woff" />
+<file href="scormcontent/lib/fonts/Lato2-Black.woff" />
+<file href="scormcontent/lib/fonts/Lato2-Bold.woff" />
+<file href="scormcontent/lib/fonts/Inter-Light.woff" />
+<file href="scormcontent/lib/fonts/Inter-Regular.woff" />
+<file href="scormcontent/lib/fonts/Inter-Medium.woff" />
+<file href="scormcontent/lib/fonts/Inter-Bold.woff" />
+<file href="scormcontent/lib/fonts/Inter-Black.woff" />
+<file href="scormcontent/assets/cOEzYVSk0dejQDi8.jpg" />
+<file href="scormcontent/assets/stock-image.jpg" />
+<file href="scormcontent/assets/xskvoK/uP2Wz5Ie1Gufd5o7.jpg" />
+<file href="scormcontent/assets/3887b4d5-a2b8-4e31-87d0-90.mp3" />
+<file href="scormcontent/assets/Timeline%20%281%29.jpg" />
+<file href="scormcontent/assets/Frise_chronologique.pdf" />
+<file href="scormcontent/assets/HORLOGERIE.jpg" />
+<file href="scormcontent/assets/aqMhq2/stock-image.jpg" />
+<file href="scormcontent/assets/ea270d8a-e85b-47d1-96f7-b1.mp3" />
+<file href="scormcontent/assets/1-horloge-gnomon.jpg" />
+<file href="scormcontent/assets/dkoPm3/stock-image.jpg" />
+<file href="scormcontent/assets/2-clepsydre.jpg" />
+<file href="scormcontent/assets/4c4aea20-a4cc-4d77-95d1-f6.mp3" />
+<file href="scormcontent/assets/MxIW9f/mountains.jpg" />
+<file href="scormcontent/assets/3-sablier.jpg" />
+<file href="scormcontent/assets/2a73782e-20a1-404c-b157-e8.mp3" />
+<file href="scormcontent/assets/HORLOGERIE1.jpg" />
+<file href="scormcontent/assets/14324b90-2e81-4a79-8478-de.mp3" />
+<file href="scormcontent/assets/6-Ressort%20moteur.jpg" />
+<file href="scormcontent/assets/7f2c6707-fdde-42ca-ad5a-f7.mp3" />
+<file href="scormcontent/assets/4-horloge%20poids.jpg" />
+<file href="scormcontent/assets/45805575-7a48-4852-9b37-e9.mp3" />
+<file href="scormcontent/assets/5-horloge%20sur%20pied.jpg" />
+<file href="scormcontent/assets/b44ad4ea-0278-4132-a3d9-5e.mp3" />
+<file href="scormcontent/assets/Js3QXb/6-Ressort%20moteur.jpg" />
+<file href="scormcontent/assets/382f8f55-26dc-45e6-8c67-7d.mp3" />
+<file href="scormcontent/assets/HORLOGERIE2.jpg" />
+<file href="scormcontent/assets/579f8df4-dc3e-4390-84ad-1e.mp3" />
+<file href="scormcontent/assets/7-montre%20tambour.jpg" />
+<file href="scormcontent/assets/La_pendule_de_table.mp4" />
+<file href="scormcontent/assets/La_pendule_de_table.jpg" />
+<file href="scormcontent/assets/f9caaf62-4d83-4640-90d8-32.mp3" />
+<file href="scormcontent/assets/9-montre%20poche.jpg" />
+<file href="scormcontent/assets/c92bc016-7b03-4a8b-abc9-78.mp3" />
+<file href="scormcontent/assets/10-horloge-a-pendule.jpg" />
+<file href="scormcontent/assets/11-spirale.jpg" />
+<file href="scormcontent/assets/Capture%20d%E2%80%99e.jpg" />
+<file href="scormcontent/assets/18f5e630-6749-45eb-bb66-2a.mp3" />
+<file href="scormcontent/assets/HORLOGERIE4.jpg" />
+<file href="scormcontent/assets/XX.jpg" />
+<file href="scormcontent/assets/4f9e89fe-ac4d-4c55-87e7-44.mp3" />
+<file href="scormcontent/assets/59a17d15-c89d-4bd6-aded-df.mp3" />
+<file href="scormcontent/assets/ed5866d8-4633-4ff4-8594-f5.mp3" />
+<file href="scormcontent/assets/15-montres%20me%CC%81caniq.jpg" />
+<file href="scormcontent/assets/e3534580-08c8-41d1-887a-21.mp3" />
+<file href="scormcontent/assets/3D%20printed%20Tourbillon.mp4" />
+<file href="scormcontent/assets/3D%20printed%20Tourbillon.jpg" />
+<file href="scormcontent/assets/P05-01-banner.jpg" />
+<file href="scormcontent/assets/cRBzD_rmHQuUOovF.png" />
+
+    </resource>
+  </resources>
+</manifest>
